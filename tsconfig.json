@@ -1,0 +1,14 @@
+{
+  "target": "es5",
+  "module": "commonjs",
+  "noEmitOnError": false,
+  "noImplicitAny": false,
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  "allowJs": true,
+  "removeComments": true,
+  "inlineSourceMap": true
+  //"exclude": [
+  //  "node_modules"   
+  //]
+}
