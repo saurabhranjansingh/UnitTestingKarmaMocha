@@ -1,4 +1,5 @@
-﻿
+﻿///<reference path="../../../node_modules/typescript/lib/lib.es6.d.ts"/>
+
 export class Calculator {
     add(x: number, y: number): number {
         return x + y;

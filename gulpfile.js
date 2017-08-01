@@ -1,4 +1,4 @@
-/// <binding />
+/// <binding AfterBuild='test' />
 var gulp = require('gulp');
 var Server = require('karma').Server;
 

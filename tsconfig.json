@@ -1,14 +1,26 @@
 {
-  "target": "es5",
-  "module": "commonjs",
-  "noEmitOnError": false,
-  "noImplicitAny": false,
-  "experimentalDecorators": true,
-  "emitDecoratorMetadata": true,
-  "allowJs": true,
-  "removeComments": true,
-  "inlineSourceMap": true
-  //"exclude": [
-  //  "node_modules"   
-  //]
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "removeComments": true,
+    "inlineSourceMap": true
+  },
+  "types": [
+    "node",
+    "mocha",
+    "chai",
+    "expect"
+  ],
+  "version": "2.4.1",
+  "include": [
+    "app/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
